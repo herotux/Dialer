@@ -29,6 +29,9 @@ jobs:
         run: |
           {
             echo "sdk.dir=$ANDROID_HOME"
+            echo "APP_ID=com.goodwy.dialer.debug"
+            echo "VERSION_NAME=8.3.0-test"
+            echo "VERSION_CODE=830"
             echo "RIGHT_APP_KEY="
             echo "PRODUCT_ID_X1="
             echo "PRODUCT_ID_X2="

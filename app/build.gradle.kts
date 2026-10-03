@@ -166,10 +166,10 @@ dependencies {
     detektPlugins(libs.compose.detekt)
 
     //Goodwy
-    "gplayImplementation"(libs.goodwy.commons.gplay)
-    "fossImplementation"(libs.goodwy.commons.foss)
-    "rustoreImplementation"(libs.goodwy.commons.rustore)
-    "hmsImplementation"(libs.goodwy.commons.hms)
+    "gplayImplementation"(libs.homa.commons.gplay)
+    "fossImplementation"(libs.homa.commons.foss)
+    "rustoreImplementation"(libs.homa.commons.rustore)
+    "hmsImplementation"(libs.homa.commons.hms)
 //    implementation(libs.goodwy.commons)
     implementation(libs.shortcut.badger)
     implementation(libs.behavio.rule)

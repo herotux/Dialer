@@ -44,10 +44,11 @@ jobs:
             echo "SUBSCRIPTION_YEAR_ID_X3="
           } > local.properties
 
+      - name: Verify Gradle
+        run: gradle --version
+
       - name: Build FOSS debug APK
-        run: |
-          chmod +x gradlew
-          ./gradlew assembleFossDebug --stacktrace
+        run: gradle assembleFossDebug --stacktrace
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
